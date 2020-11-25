@@ -4,4 +4,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def quiz(request):
-    return render(request,"quiz.html")
+    # get all the quizzes
+    # filter by selected difficulty
+    context = {}
+    return render(request,"quiz.html",context)
