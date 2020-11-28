@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIR = [
+    'nasaswyk/static'
+]
+
 
 # Application definition
 

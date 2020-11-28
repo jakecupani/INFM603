@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,8 +11,11 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
   </head>
   <body>
+
+    <!-- Header  -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button
@@ -29,24 +33,42 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href=""
+              <a class="nav-link" href="{% url 'index'%}"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Quizzes</a>
+              <a class="nav-link" href="{% url 'quiz' %}">Quizzes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link" href="{% url 'about'%}">About</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- Content  -->
     <div class="jumbotron">
       <div class="container">{% block content %} {% endblock %}</div>
     </div>
 
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          <div>
+            <ul class="footer-info">
+              <li>INST603 Group Project</li>
+              <li>Show What You Know</li>
+            </ul>
+          </div>
+      </div>
+      <br>
+    </footer>
+
+    <!-- Scripts  -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
