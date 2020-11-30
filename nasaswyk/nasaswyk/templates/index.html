@@ -1,8 +1,25 @@
-{% extends "base.html" %} {% block content %}
 
+{% extends "base.html" %} {% block content %}
+{% load static %}
+
+<style>
+    #index-content {
+        background-image: url("{% static 'assets/space-pattern2.jpg' %}");
+    }
+
+    .welcome {
+        background-color: aliceblue;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+</style>
 <div id="index-content" class="jumbotron">
     <div class="container">
-        
+        <div class="text-center welcome">
+            <h1>Welcome to Show What You Know!</h1>
+        </div>
     </div>
 </div>
 
