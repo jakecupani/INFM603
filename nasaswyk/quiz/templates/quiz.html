@@ -1,3 +1,24 @@
 {% extends "base.html" %} {% block content %}
-<h1>hello quizzes</h1>
+{% load static %}
+<style>
+    li {
+        list-style-type: none;
+    }
+</style>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Quizzes</h1>
+        <hr>
+
+        <h2>Topics</h2>
+        <div class="filters">
+            <ul>
+                <li>Topic 1</li>
+                <li>Topic 2</li>
+                <li>Topic 3</li>
+            </ul>
+        </div>
+    </div>
+</div>
 {% endblock content %}
