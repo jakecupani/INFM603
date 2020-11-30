@@ -5,21 +5,37 @@
 <style>
     #index-content {
         background-image: url("{% static 'assets/space-pattern2.jpg' %}");
+        /* background-blend-mode: screen; */
     }
 
     .welcome {
-        background-color: aliceblue;
+        background-color: white;
         padding: 10px;
         border-radius: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
+
+    
 
 
 </style>
-<div id="index-content" class="jumbotron">
+<div id="index-content" class="jumbotron text-center">
     <div class="container">
-        <div class="text-center welcome">
+        <!-- <div class="text-center welcome">
             <h1>Welcome to Show What You Know!</h1>
-        </div>
+        </div> -->
+        <section class="welcome">
+            <div class="">
+              <h1>Welcome to Show What You Know!</h1>
+              <p class="lead text-muted">Mission statement here...</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+              <p>Maybe some cards here...</p>
+            </div>
+          </section>
     </div>
 </div>
 

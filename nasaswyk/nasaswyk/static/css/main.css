@@ -1,3 +1,16 @@
 footer li {
     list-style: none;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 5px;
+}
+
+.nav-masthead a{
+    color: #fff;
+    border-bottom-color: #fff;
+}
