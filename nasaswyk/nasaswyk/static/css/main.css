@@ -1,32 +1,29 @@
 footer li {
-    list-style: none;
-    background-color: #21274d;
+  list-style: none;
+  background-color: #21274d;
 }
 
 footer span {
-    color: white;
+  color: white;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #21274d;
-
+  font-family: "Roboto", sans-serif;
+  background-color: #21274d;
 }
 
 nav {
-    padding: 10px;
-    background-color: #21274d;
+  padding: 10px;
+  background-color: #21274d;
 }
 
-
 .nav-masthead a {
-    color: rgba(255, 255, 255, .5);
-    font-size: larger;
-    font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: larger;
+  font-weight: bold;
 }
 
 .nav-masthead a:hover {
-    color: white;
-
+  color: white;
+  text-decoration: underline;
 }
-

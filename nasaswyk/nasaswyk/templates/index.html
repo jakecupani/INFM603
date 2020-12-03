@@ -1,45 +1,36 @@
-
-{% extends "base.html" %} {% block content %}
-{% load static %}
+{% extends "base.html" %} {% block content %} {% load static %}
 
 <style>
-    #index-content {
-        background-image: url("{% static 'assets/space-pattern2.jpg' %}");
-        /* background-blend-mode: screen; */
-    }
+  #index-content {
+    background-image: url("{% static 'assets/space-pattern2.jpg' %}");
+    /* background-blend-mode: screen; */
+  }
 
-    .main-content {
-        background-color: white;
-        padding: 10px;
-        border-radius: 20px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    nav:first-child a{
-        color: white;
-    }
-    
-
-
+  .main-content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 </style>
 <div id="index-content" class="jumbotron text-center">
-    <div class="container">
-        <!-- <div class="text-center welcome">
+  <div class="container">
+    <!-- <div class="text-center welcome">
             <h1>Welcome to Show What You Know!</h1>
         </div> -->
-        <section class="main-content">
-            <div class="">
-              <h1>Welcome to Show What You Know!</h1>
-              <p class="lead text-muted">Mission statement here...</p>
-              <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-              </p>
-              <p>Maybe some cards here...</p>
-            </div>
-          </section>
-    </div>
+    <section class="main-content">
+      <div class="">
+        <h1>Welcome to Show What You Know!</h1>
+        <p class="lead text-muted">Mission statement here...</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+        <p>Maybe some cards here...</p>
+      </div>
+    </section>
+  </div>
 </div>
 
 {% endblock content %}
