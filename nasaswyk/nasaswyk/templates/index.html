@@ -19,18 +19,37 @@
     <!-- <div class="text-center welcome">
             <h1>Welcome to Show What You Know!</h1>
         </div> -->
-    <section class="main-content">
-      <div class="">
-        <h1>Welcome to Show What You Know!</h1>
-        <p class="lead text-muted">Mission statement here...</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
-        <p>Maybe some cards here...</p>
-      </div>
-    </section>
-  </div>
+        <section class="main-content">
+            <div class="">
+              <h1>Space Chase! Space Race!</h1>
+              <p class="lead text-muted">Put on your spacesuit, buckle up, and get ready to explore!</p>
+              <p>
+                <a href="quiz/" class="btn btn-primary my-2">Enter Space Training</a>
+                <a href="https://www.nasa.gov/topics/moon-to-mars" class="btn btn-secondary my-2">Mission: Moon to Mars</a>
+              </p>
+              <p><div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                <img src="{% static 'assets/pia23378-16.jpg' %}" class="card-img-top" alt="Mars Rover takes a selfie">
+                <div class="card-body">
+                  <p class="card-text">Learn about Current Missions <br> to the Moon and Mars</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="{% static 'assets/iss064e005045.jpg' %}" class="card-img-top" alt="NASA flight engineer Victor Glover aboard the ISS">
+                <div class="card-body">
+                  <p class="card-text">Test Your Knowledge</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="{% static 'assets/nasa-Yj1M5riCKk4-unsplash.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Challenge Yourself and Blast Off!  </p>
+                </div>
+              </div></p>
+            </div>
+          </div>
+          </section>
+    </div>
 </div>
 
 {% endblock content %}
