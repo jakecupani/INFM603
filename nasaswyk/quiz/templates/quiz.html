@@ -1,24 +1,96 @@
-{% extends "base.html" %} {% block content %}
-{% load static %}
+{% extends "base.html" %} {% block content %} {% load static %}
 <style>
     li {
-        list-style-type: none;
+      list-style-type: none;
+    }
+
+    .quizzes {
+      display: flex;
+    }
+
+    .card {
+      margin-right: 50px;
+      box-shadow:
+         inset 0 -3em 3em rgba(66, 66, 66, 0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.1);
+  }
     }
 </style>
 
 <div class="jumbotron">
-    <div class="container">
-        <h1>Quizzes</h1>
-        <hr>
+  <div class="container">
+    <h1>Quizzes</h1>
+    <hr />
 
-        <h2>Topics</h2>
-        <div class="filters">
-            <ul>
-                <li>Topic 1</li>
-                <li>Topic 2</li>
-                <li>Topic 3</li>
-            </ul>
+    <div class="filters">
+      <div class="filter filter-basic">
+        <div class="filter-nav">
+          <button class="btn btn-success active" data-filter="">All</button>
+          <button class="btn btn-primary" data-filter="nature">Geology</button>
+          <button class="btn btn-primary" data-filter="food">
+            Earth Science
+          </button>
+          <button class="btn btn-primary" data-filter="architecture">
+            Planets
+          </button>
         </div>
+      </div>
     </div>
+    <hr />
+    <div class="row quizzes">
+      <div class="col-auto mb-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto mb-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto mb-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock content %}
