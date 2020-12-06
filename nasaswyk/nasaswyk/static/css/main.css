@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-  padding: 10px;
+  /* padding: 10px; */
   background-color: #21274d;
 }
 
@@ -26,4 +26,8 @@ nav {
 .nav-masthead a:hover {
   color: white;
   text-decoration: underline;
+}
+
+.bg-dark {
+  background-color: #21274d !important;
 }
