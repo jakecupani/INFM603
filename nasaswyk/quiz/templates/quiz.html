@@ -16,6 +16,15 @@
                0 0  0 2px rgb(255,255,255),
                0.3em 0.3em 1em rgba(0,0,0,0.1); */
       box-shadow: 5px 10px 18px #888888;
+
+  }
+
+  .badge {
+    margin-left: 20px;
+  }
+
+  .card-title {
+    font-weight: bold;
   }
     
 </style>
@@ -66,7 +75,20 @@
             alt=""
           />
           <div class="card-body">
-            <h5 class="card-title">{{question.question_title}}</h5>
+            <h5 class="card-title">{{question.question_title}}
+
+              {% if question.question_difficulty == 'Easy' %}
+            <span class="badge badge-success">Easy</span>
+            {% elif question.question_difficulty == 'Medium'%}
+            <span class="badge badge-warning">Medium</span>
+            {% elif question.question_difficulty == 'Hard'%}
+            <span class="badge badge-danger">Hard</span>
+            {% endif %}
+            </h5>
+            
+            <!-- <hr> -->
+
+
             <p class="card-text">
               {{question.question_description}}
             </p>
