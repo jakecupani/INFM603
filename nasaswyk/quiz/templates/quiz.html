@@ -26,6 +26,10 @@
   .card-title {
     font-weight: bold;
   }
+
+  #any-filter {
+    margin-right: 20px;
+  }
     
 </style>
 
@@ -49,7 +53,8 @@
         <div>
           <p class="text-muted">Difficulty</p>
           <div class=difficulty-nav">
-            <button class="btn btn-success active" data-filter="all">All</button>
+            <button id="any-filter" class="btn btn-info active" data-filter="all">Any</button>
+            
             <button class="btn btn-primary btn-success" data-filter="easy">Easy</button>
             <button class="btn btn-primary btn-warning" data-filter="medium">
               Medium
@@ -77,7 +82,7 @@
           <div class="card-body">
             <h5 class="card-title">{{question.question_title}}
 
-              {% if question.question_difficulty == 'Easy' %}
+            {% if question.question_difficulty == 'Easy' %}
             <span class="badge badge-success">Easy</span>
             {% elif question.question_difficulty == 'Medium'%}
             <span class="badge badge-warning">Medium</span>
@@ -92,7 +97,7 @@
             <p class="card-text">
               {{question.question_description}}
             </p>
-            <a href="#" class="btn btn-primary">Blast off!</a>
+            <a href="{{question.id}}/" class="btn btn-primary">Blast off!</a>
           </div>
         </div>
       </div>

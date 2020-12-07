@@ -13,3 +13,13 @@ def quiz(request):
     context['questions'] = questions
     print(questions)
     return render(request,"quiz.html",context)
+
+def question(request,question_id):
+    context = {}
+    try:
+        q = Question.objects.filter(pk=question_id)
+        q = q[0]
+    except:
+        print('404')
+    context['question'] = q
+    return render(request,'question.html',context)
