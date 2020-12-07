@@ -29,14 +29,9 @@
       <p class="text-muted">Topics</p>
       <div class="filter filter-basic">
         <div class="filter-nav">
-          <button class="btn btn-success active" data-filter="all">All</button>
-          <button class="btn btn-primary" data-filter="geology">Geology</button>
-          <button class="btn btn-primary" data-filter="earth science">
-            Earth Science
-          </button>
-          <button class="btn btn-primary" data-filter="planets">
-            Planets
-          </button>
+          {% for topic in topics %}
+            <button class="btn btn-primary" data-filter={{topic}}>{{topic}}</button>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -46,11 +41,11 @@
           <p class="text-muted">Difficulty</p>
           <div class=difficulty-nav">
             <button class="btn btn-success active" data-filter="all">All</button>
-            <button class="btn btn-primary" data-filter="easy">Easy</button>
-            <button class="btn btn-primary" data-filter="medium">
+            <button class="btn btn-primary btn-success" data-filter="easy">Easy</button>
+            <button class="btn btn-primary btn-warning" data-filter="medium">
               Medium
             </button>
-            <button class="btn btn-primary" data-filter="hard">
+            <button class="btn btn-primary btn-danger" data-filter="hard">
               Hard
             </button>
           </div>
@@ -60,6 +55,9 @@
 
     <hr />
     <div class="row quizzes">
+
+
+      {% for question in questions %}
       <div class="col-auto mb-3">
         <div class="card" style="width: 18rem">
           <img
@@ -68,49 +66,19 @@
             alt=""
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">{{question.question_title}}</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {{question.question_description}}
             </p>
             <a href="#" class="btn btn-primary">Blast off!</a>
           </div>
         </div>
       </div>
-      <div class="col-auto mb-3">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
-            class="card-img-top"
-            alt=""
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Blast off!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-auto mb-3">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
-            class="card-img-top"
-            alt=""
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Blast off!</a>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
+
+      
+      
+      
     </div>
   </div>
 </div>
