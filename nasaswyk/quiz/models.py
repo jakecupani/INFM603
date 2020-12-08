@@ -2,21 +2,31 @@ from django.db import models
 from django.utils import timezone
 import datetime
 
-class Question(models.Model):
-    def __str__(self):
-        return self.question_title
-
-
-    DIFFICULTIES = [
+DIFFICULTIES = [
         ('Easy','Easy'),
         ('Medium','Medium'),
         ('Hard','Hard')
     ]
 
-    TOPICS = [
+TOPICS = [
         ("Other","Other"),
         ("Artemis",'Artemis'),
     ]
+
+
+# class Quiz(models.Model):
+
+#     def __str__(self):
+#         return self.quiz_title
+    
+#     quiz
+
+class Question(models.Model):
+    def __str__(self):
+        return self.question_title
+
+
+    
 
     question_title = models.CharField(default='',max_length=1000)
     question_description = models.TextField(default="")
