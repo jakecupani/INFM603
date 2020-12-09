@@ -19,7 +19,10 @@ TOPICS = [
 #     def __str__(self):
 #         return self.quiz_title
     
-#     quiz
+#     quiz_title = models.CharField(default='',max_length=1000)
+
+    
+
 
 class Question(models.Model):
     def __str__(self):
@@ -33,7 +36,8 @@ class Question(models.Model):
     question_reading = models.TextField(default="")
     question_topic = models.CharField(default="Other",choices=TOPICS,max_length=100)
     question_difficulty = models.CharField(default="Easy",choices=DIFFICULTIES,max_length=100)
-
+    
+    # quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)
 
 class Choice(models.Model):
     def __str__(self):
