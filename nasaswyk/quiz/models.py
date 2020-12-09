@@ -14,30 +14,24 @@ TOPICS = [
     ]
 
 
-# class Quiz(models.Model):
+class Quiz(models.Model):
 
-#     def __str__(self):
-#         return self.quiz_title
+    def __str__(self):
+        return self.title
     
-#     quiz_title = models.CharField(default='',max_length=1000)
+    title = models.CharField(default='',max_length=1000)
+    topic = models.CharField(default='Other',max_length=100,choices=TOPICS)
+    difficulty = models.CharField(default='Easy',max_length=100,choices=DIFFICULTIES)
 
-    
 
 
 class Question(models.Model):
     def __str__(self):
-        return self.question_title
+        return self.title
 
-
-    
-
-    question_title = models.CharField(default='',max_length=1000)
-    question_description = models.TextField(default="")
-    question_reading = models.TextField(default="")
-    question_topic = models.CharField(default="Other",choices=TOPICS,max_length=100)
-    question_difficulty = models.CharField(default="Easy",choices=DIFFICULTIES,max_length=100)
-    
-    # quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)
+    title = models.CharField(default='',max_length=1000)
+    description = models.TextField(default="")    
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE,default=None)
 
 class Choice(models.Model):
     def __str__(self):
@@ -45,4 +39,6 @@ class Choice(models.Model):
 
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=1000)
+    is_correct = models.BooleanField(default=False)
+
     
