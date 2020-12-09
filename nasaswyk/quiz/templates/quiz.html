@@ -71,22 +71,22 @@
     <div class="row quizzes">
 
 
-      {% for question in questions %}
+      {% for quiz in quizzes %}
       <div class="col-auto mb-3">
         <div class="card" style="width: 18rem">
-          <img
-            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?resize=768:*"
+          <!-- <img
+            src="{{quiz.thumbnail.url}}"
             class="card-img-top"
-            alt=""
-          />
+            alt="Quiz thumbnail"
+          /> -->
           <div class="card-body">
-            <h5 class="card-title">{{question.question_title}}
+            <h5 class="card-title">{{quiz.title}}
 
-            {% if question.question_difficulty == 'Easy' %}
+            {% if quiz.difficulty == 'Easy' %}
             <span class="badge badge-success">Easy</span>
-            {% elif question.question_difficulty == 'Medium'%}
+            {% elif quiz.difficulty == 'Medium'%}
             <span class="badge badge-warning">Medium</span>
-            {% elif question.question_difficulty == 'Hard'%}
+            {% elif quiz.difficulty == 'Hard'%}
             <span class="badge badge-danger">Hard</span>
             {% endif %}
             </h5>
@@ -95,9 +95,9 @@
 
 
             <p class="card-text">
-              {{question.question_description}}
+              {{quiz.description}}
             </p>
-            <a href="{{question.id}}/" class="btn btn-primary">Blast off!</a>
+            <a href="{{quiz.id}}/" class="btn btn-primary">Blast off!</a>
           </div>
         </div>
       </div>

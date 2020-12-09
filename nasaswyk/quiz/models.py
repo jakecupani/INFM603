@@ -22,7 +22,8 @@ class Quiz(models.Model):
     title = models.CharField(default='',max_length=1000)
     topic = models.CharField(default='Other',max_length=100,choices=TOPICS)
     difficulty = models.CharField(default='Easy',max_length=100,choices=DIFFICULTIES)
-
+    thumbnail = models.ImageField(default=None)
+    description = models.TextField(default='')
 
 
 class Question(models.Model):

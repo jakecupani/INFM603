@@ -1,11 +1,10 @@
 {% extends "base.html" %} {% block content %} {% load static %}
 <div class="jumbotron">
   <div class="container">
-    <h1>{{question}}</h1>
+    <h1>{{quiz}}</h1>
     <hr />
-    <p>{{question.question_description}}</p>
-    {% for choice in question.choice_set.all %}
-    <li>{{choice.choice_text}}</li>
+    {% for question in questions %}
+
     {% endfor %}
   </div>
 </div>
