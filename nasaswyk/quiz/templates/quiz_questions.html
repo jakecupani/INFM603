@@ -3,8 +3,18 @@
   <div class="container">
     <h1>{{quiz}}</h1>
     {% if message %}
-    <div class="alert alert-info" role="alert">You got {{score}}% right!</div>
-    {% endif %}
+    <div class="alert alert-info" role="alert">You got {{score}}% right.</div>
+
+    {% if score != 100 %}
+    <div class="alert alert-danger" role="alert">
+      <p>Make sure to look over the questions you got wrong!</p>
+      <ul>
+        {% for q in incorrect%}
+        <li>{{q}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %} {% endif %}
     <hr />
 
     <form action="" method="POST">

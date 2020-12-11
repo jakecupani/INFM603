@@ -50,6 +50,7 @@ def quiz_questions(request,quiz_id):
         print(res)
         score = 0
         total_questions = 0
+        incorrect = []
 
         for i in res:
             if i == "csrfmiddlewaretoken":
@@ -58,9 +59,15 @@ def quiz_questions(request,quiz_id):
                 score += 1
                 total_questions += 1
             else:
+                incorrect.append(i)
                 total_questions += 1
+        
+        context['incorrect'] = incorrect
 
-        return int((score/total_questions)*100)
+        if total_questions == 0:
+            return 0
+        else:
+            return int((score/total_questions)*100)
 
     if res:
         context['message'] = True
