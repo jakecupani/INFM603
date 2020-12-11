@@ -2,10 +2,40 @@
 <div class="jumbotron">
   <div class="container">
     <h1>{{quiz}}</h1>
+    {% if message %}
+    <div class="alert alert-info" role="alert">You got {{score}}% right!</div>
+    {% endif %}
     <hr />
-    {% for question in questions %}
-      <p>{{question}}</p>
-    {% endfor %}
+
+    <form action="" method="POST">
+      {% csrf_token %} {% for question in questions %}
+      <div class="card">
+        <div class="card-header">
+          <h2 class="">{{question.description}}</h2>
+        </div>
+
+        <div class="card-body">
+          {% for choice in question.choice_set.all %}
+
+          <div class="form-check">
+            <input
+              required
+              id="{{choice}}-{{question}}"
+              class="form-check-input"
+              type="radio"
+              value="{{choice.is_correct}}"
+              name="{{question}}"
+            />
+            <label for="{{choice}}" class="form-check-label">{{choice}}</label>
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+      <br />
+      {% endfor %}
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 </div>
 {%endblock%}

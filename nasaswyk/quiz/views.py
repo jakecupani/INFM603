@@ -44,7 +44,27 @@ def quiz(request):
 
 def quiz_questions(request,quiz_id):
     context = {}
+    res = request.POST
+    context['message'] = False
+    def checkAnswers(res):
+        print(res)
+        score = 0
+        total_questions = 0
 
+        for i in res:
+            if i == "csrfmiddlewaretoken":
+                continue
+            elif res[i] == "True":
+                score += 1
+                total_questions += 1
+            else:
+                total_questions += 1
+
+        return int((score/total_questions)*100)
+
+    if res:
+        context['message'] = True
+        context['score'] = checkAnswers(res)
     try:
         quiz = Quiz.objects.filter(pk=quiz_id)
         quiz = quiz[0]
@@ -54,4 +74,5 @@ def quiz_questions(request,quiz_id):
         print('404')
     context['quiz'] = quiz
     context['questions'] = questions
+    print(context)
     return render(request,'quiz_questions.html',context)
