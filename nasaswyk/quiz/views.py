@@ -59,7 +59,7 @@ def quiz_questions(request,quiz_id):
                 score += 1
                 total_questions += 1
             else:
-                incorrect.append(i)
+                incorrect.append(Question.objects.get(title=i))
                 total_questions += 1
         
         context['incorrect'] = incorrect

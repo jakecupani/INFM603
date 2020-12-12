@@ -31,3 +31,7 @@ nav {
 .bg-dark {
   background-color: #21274d !important;
 }
+
+.container {
+  /* box-shadow: 5px 10px 18px #888888; */
+}
