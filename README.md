@@ -24,3 +24,17 @@ The proposed website consists of three web pages:
 The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
 
 The website consists of HTML code for site foundation and Bootstrap for site stylings and design. The site also consists of Python code used in the Django web framework to create the Home, Quiz, and About pages. For quiz questions, a SQL data store was used. Python and Django were used to create quizzes based on the user selection of topic(s) and difficulty level.
+
+## Testing
+
+The project team tested website functionality on the Chrome, Edge/Internet Explorer, Firefox, and Safari web browsers.
+
+The project team used the Google Chrome Lighthouse audit tool to assess various performance, accessibility, best practices, and search engine optimization (SEO) by giving a score for each factor being assessed. This tool was used to detect inefficiencies and mistakes to improve the HTML code and other assets. This tool was also used to assess mobile and desktop usability and responsiveness. A graphic of the final Google Chrome Lighthouse scoring can be found below.   
+
+The project team also used the Google Chrome Developer Tools console to debug errors in the HTML code.
+
+The project team also used manual tests to check the functionalities of the website and its underlying database based on the actions of website users. Specifically, the project team performed tests to:
+ 
+ -
+ -
+ -
