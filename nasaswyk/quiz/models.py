@@ -11,6 +11,10 @@ DIFFICULTIES = [
 TOPICS = [
         ("Other","Other"),
         ("Artemis",'Artemis'),
+        ("Spacecraft","Spacecraft"),
+        ("Spacesuits","Spacesuits"),
+        ("Spaceships","Spaceships"),
+        ("NASA Names","NASA Names"),
     ]
 
 

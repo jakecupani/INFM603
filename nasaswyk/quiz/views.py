@@ -36,7 +36,7 @@ def quiz(request):
         except:
             pass
     
-    context['topics'] = ["Other","Artemis"]
+    context['topics'] = ["Other","Artemis","Spacecraft","Spacesuits","Spaceships","NASA Names"]
     context['quizzes'] = quizzes
 
     print(res)
