@@ -64,3 +64,19 @@ The project team backlogged items for the website. These items were identified a
 The project team learned from challenges they encountered while working on the website.
 
 The project team considered the identification and development of website requirements as a challenge. The project team was unable to discuss and work with students, teachers, parents, and those with subject matter expertise in NASA and STEM topics to obtain their input and feedback on the site content and functionality. As a result, the project team learned the importance of stakeholder engagement in website development. To overcome this challenge, the project team recommends creating an advisory board of users to obtain input and feedback on site content and functionality. After working with this advisory board, the project team would revisit and revise any user stories, requirements, site content and functionality for future releases.
+
+## References
+
+The project team referred to and used subject matter, image, and technical resources for the website. These resources were used to assist in the planning, design, implementation, and testing of the site. 
+
+The project team referred to and used information from the following websites, documents, and videos for subject matter related to NASA:
+
+ - [NASA History Overview](https://www.nasa.gov/content/nasa-history-overview)
+ - [NASA STEM Engagement Website](https://www.nasa.gov/stem/about.htm)
+ - [NASA Strategy for STEM Engagement Document](https://www.nasa.gov/sites/default/files/atoms/files/nasa-strategy-for-stem-2020-23-508.pdf)  
+ - [NASA We Are Going Video](https://www.youtube.com/watch?v=vl6jn-DdafM&feature=emb_logo) 
+ - [NASA Prepares to Explore Moon: Spacesuits, Tools Video](https://moon.nasa.gov/resources/410/nasa-prepares-to-explore-the-moon-spacesuits-and-tools/)
+ - [NASA Exploration Mission - 1: Pushing Farther Into Deep Space Video](https://www.youtube.com/watch?v=XcPtQYalkcs)
+ - [NASA Moon to Mars Website](https://www.nasa.gov/topics/moon-to-mars)
+ - [NASA Artemis Program Website](https://www.nasa.gov/specials/artemis/)
+ - [NASA NASA Knows! for Students 5-8 Website](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/index.html)
