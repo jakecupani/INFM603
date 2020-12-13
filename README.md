@@ -75,6 +75,8 @@ The project team learned from challenges they encountered while working on the w
 
 The project team considered the identification and development of website requirements as a challenge. The project team was unable to discuss and work with students, teachers, parents, and those with subject matter expertise in NASA and STEM topics to obtain their input and feedback on the site content and functionality. As a result, the project team learned the importance of stakeholder engagement in website development. To overcome this challenge, the project team recommends creating an advisory board of users to obtain input and feedback on site content and functionality. After working with this advisory board, the project team would revisit and revise any user stories, requirements, site content and functionality for future releases.
 
+The project team considered .......... as another challenge. The project team experienced difficulty with ........... As a result, the project team learned ........... To overcome this challenge, the project team recommends ...........
+
 ## References
 
 The project team referred to and used subject matter, image, and technical resources for the website. These resources were used to assist in the planning, design, implementation, and testing of the site. 
