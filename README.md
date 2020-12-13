@@ -74,7 +74,7 @@ The project team referred to and used information from the following websites, d
  - [NASA History Overview](https://www.nasa.gov/content/nasa-history-overview)
  - [NASA STEM Engagement Website](https://www.nasa.gov/stem/about.html)
  - [NASA Strategy for STEM Engagement Document](https://www.nasa.gov/sites/default/files/atoms/files/nasa-strategy-for-stem-2020-23-508.pdf)  
- - [NASA We Are Going Video](https://www.youtube.com/watch?v=vl6jn-DdafM&feature=emb_logo) 
+ - [NASA We Are Going Video](https://youtu.be/vl6jn-DdafM) 
  - [NASA Prepares to Explore Moon: Spacesuits, Tools Video](https://moon.nasa.gov/resources/410/nasa-prepares-to-explore-the-moon-spacesuits-and-tools/)
  - [NASA Exploration Mission - 1: Pushing Farther Into Deep Space Video](https://www.youtube.com/watch?v=XcPtQYalkcs)
  - [NASA Moon to Mars Website](https://www.nasa.gov/topics/moon-to-mars)
