@@ -27,6 +27,14 @@ Ready for liftoff? T minus three, two, one: Blast Off!
 
 The project team met on a weekly basis via Zoom to discuss the website. Project team members also met on an ad-hoc basis via Zoom or Google Meet to discuss specific tasks. The project team communicated outside meetings using GroupMe.
 
+The project team used Google Drive and Trello boards to manage documents, as well as the planning and design of the website. The project team’s major documents can be found here. The project team used Trello for project planning.
+
+The project team wrote users stories for students, teachers, parents, and others to identify and develop website requirements, and tracked backlogs, user stories, and sprints using Trello.
+
+The project team developed wireframes of the user interface for the three main pages of the website using Figma. The team also developed wireframes for some of the major epics in the project’s backlog using Figma. 
+
+The project team drafted an Entity-Relationship Diagram (ER Diagram) to define the website’s conceptual data model for the database of quiz questions and answers. This ER Diagram was created on Figma and can be found here.
+
 ## Implementation
 
 The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
