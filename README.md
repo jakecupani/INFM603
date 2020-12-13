@@ -80,3 +80,10 @@ The project team referred to and used information from the following websites, d
  - [NASA Moon to Mars Website](https://www.nasa.gov/topics/moon-to-mars)
  - [NASA Artemis Program Website](https://www.nasa.gov/specials/artemis/)
  - [NASA NASA Knows! for Students 5-8 Website](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/index.html)
+
+The project team used images from the following sources:
+
+ - Unsplash - NASA 
+ - [NASA Image Galleries](https://www.nasa.gov/multimedia/imagegallery/index.html)
+ - [World Vector Logo](https://worldvectorlogo.com/logo/galaxy-4)
+ - [Freepik](https://www.freepik.com/free-vector/space-seamless-pattern_1537681.htm)
