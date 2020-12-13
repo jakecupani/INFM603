@@ -100,6 +100,6 @@ The project team used images from the following sources:
  - [World Vector Logo](https://worldvectorlogo.com/logo/galaxy-4)
  - [Freepik](https://www.freepik.com/free-vector/space-seamless-pattern_1537681.htm)
  
- The project team used referred to and used information from the following technical sources:
+ The project team referred to and used information from the following technical sources:
  - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) for site stylings and design
  - [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/) for web development 
