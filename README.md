@@ -19,6 +19,10 @@ The proposed website consists of three web pages:
 2. Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding; and  
 3. About - a page providing information for students, teachers, and parents on the site purpose.   
 
+To properly run the ___________ website, it requires the use of
+
+Ready for liftoff? T minus three, two, one: Blast Off!
+
 ## Implementation
 
 The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
