@@ -23,6 +23,10 @@ To properly run the ___________ website, it requires the use of
 
 Ready for liftoff? T minus three, two, one: Blast Off!
 
+## Planning and Design
+
+The project team met on a weekly basis via Zoom to discuss the website. Project team members also met on an ad-hoc basis via Zoom or Google Meet to discuss specific tasks. The project team communicated outside meetings using GroupMe.
+
 ## Implementation
 
 The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
@@ -54,3 +58,9 @@ The project team backlogged items for the website. These items were identified a
  - A page where students can type and submit questions to their teacher; 
  - Site functionality to capture and send quiz scores via email to teachers and/or parents for their review; and
  - A credential and portal system for students, teachers, parents, and others that allows them to view quiz scores and other class information.
+
+## Challenges and Lessons Learned
+
+The project team learned from challenges they encountered while working on the website.
+
+The project team considered the identification and development of website requirements as a challenge. The project team was unable to discuss and work with students, teachers, parents, and those with subject matter expertise in NASA and STEM topics to obtain their input and feedback on the site content and functionality. As a result, the project team learned the importance of stakeholder engagement in website development. To overcome this challenge, the project team recommends creating an advisory board of users to obtain input and feedback on site content and functionality. After working with this advisory board, the project team would revisit and revise any user stories, requirements, site content and functionality for future releases.
