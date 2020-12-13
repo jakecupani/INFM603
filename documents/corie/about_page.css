@@ -1,0 +1,65 @@
+footer li {
+  list-style: none;
+  background-color: #21274d;
+}
+
+footer span {
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://image.freepik.com/free-vector/space-seamless-pattern_1284-4743.jpg");
+  background-color:white ;
+  color:#21274d;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  background-color: white;
+}
+
+.jumbotron {
+  padding: 50px;
+  text-align: center;
+  background-color: #21274d;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 25.9%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white; 
+}
+
+.nav-masthead a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.nav-masthead a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
