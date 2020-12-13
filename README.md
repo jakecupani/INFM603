@@ -42,3 +42,15 @@ The project team also used manual tests to check the functionalities of the webs
  -
  -
  -
+
+## Backlog
+
+The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive as well as in cards on one of the Trello boards. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
+
+ - Additional information, hyperlinks, videos, and/or pages that students can read and watch to learn more about a specific topic;
+ - Pages where students can receive instructions for individual learning activities, such as observing and identifying the lunar cycle;
+ - Site functionality that would randomize the selection of quiz questions for topics;
+ - Pages where students can type and submit short answers responses to questions related to individual learning activities; 
+ - A page where students can type and submit questions to their teacher; 
+ - Site functionality to capture and send quiz scores via email to teachers and/or parents for their review; and
+ - A credential and portal system for students, teachers, parents, and others that allows them to view quiz scores and other class information.
