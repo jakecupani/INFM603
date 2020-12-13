@@ -83,7 +83,7 @@ The project team referred to and used information from the following websites, d
 
 The project team used images from the following sources:
 
- - Unsplash - NASA 
+ - [NASA's Unsplash Webpage](https://unsplash.com/@nasa)
  - [NASA Image Galleries](https://www.nasa.gov/multimedia/imagegallery/index.html)
  - [World Vector Logo](https://worldvectorlogo.com/logo/galaxy-4)
  - [Freepik](https://www.freepik.com/free-vector/space-seamless-pattern_1537681.htm)
