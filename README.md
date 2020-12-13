@@ -55,7 +55,7 @@ The project team also used manual tests to check the functionalities of the webs
  -
  -
 
-## Backlog
+## Backlog and Backlogged Items
 
 The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive as well as in cards on one of the Trello boards. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
 
