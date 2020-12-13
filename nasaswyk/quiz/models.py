@@ -13,7 +13,6 @@ TOPICS = [
         ("Missions",'Missions'),
         ("Spacecraft","Spacecraft"),
         ("Spacesuits","Spacesuits"),
-        ("Spaceships","Spaceships"),
         ("NASA Names","NASA Names"),
     ]
 
