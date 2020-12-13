@@ -72,7 +72,7 @@ The project team referred to and used subject matter, image, and technical resou
 The project team referred to and used information from the following websites, documents, and videos for subject matter related to NASA:
 
  - [NASA History Overview](https://www.nasa.gov/content/nasa-history-overview)
- - [NASA STEM Engagement Website](https://www.nasa.gov/stem/about.htm)
+ - [NASA STEM Engagement Website](https://www.nasa.gov/stem/about.html)
  - [NASA Strategy for STEM Engagement Document](https://www.nasa.gov/sites/default/files/atoms/files/nasa-strategy-for-stem-2020-23-508.pdf)  
  - [NASA We Are Going Video](https://www.youtube.com/watch?v=vl6jn-DdafM&feature=emb_logo) 
  - [NASA Prepares to Explore Moon: Spacesuits, Tools Video](https://moon.nasa.gov/resources/410/nasa-prepares-to-explore-the-moon-spacesuits-and-tools/)
