@@ -44,7 +44,7 @@
         <div class="filter-nav">
           <form action="" method="POST">
             {% csrf_token %}
-            <button type="submit" class="btn btn-info" value="Any" name="Topic">Any</button>
+            <!-- <button type="submit" class="btn btn-info" value="Any" name="Topic">Any</button> -->
             {% for topic in topics %}
             <button type="submit" class="btn btn-primary" value="{{topic}}" name="Topic" data-filter={{topic}}>{{topic}}</button>
             {% endfor %}
@@ -53,7 +53,6 @@
               <div>
                 <p class="text-muted">Difficulty</p>
                 <div class=difficulty-nav">
-                  <button id="any-filter" class="btn btn-info active" type="submit" value="Any" name="Difficulty" data-filter="all">Any</button>
                   
                   <button class="btn btn-primary btn-success" type="submit" value="Easy" name="Difficulty" data-filter="easy">Easy</button>
                   <button class="btn btn-primary btn-warning" type="submit" value="Medium" name="Difficulty" data-filter="medium">
@@ -65,6 +64,9 @@
                 </div>
               </div>
             </div>
+            <br><br>
+            <button id="any-filter" class="btn btn-info active" type="submit" value="Any" name="Difficulty" data-filter="all">Reset</button>
+
           </form>
           
         </div>
