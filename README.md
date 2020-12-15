@@ -38,7 +38,7 @@ The project team drafted an Entity-Relationship Diagram (ER Diagram) to define t
 
 The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
 
-The website consists of HTML code for site foundation and Bootstrap for site stylings and design. The site also consists of Python code used in the Django web framework to create the Home, Quizzes, Quiz Results, and About pages. For quiz questions, a SQL data store was used. Python and Django were used to create quizzes based on the user selection of topic(s) and difficulty level.
+The website consists of HTML code for site foundation and Bootstrap for site stylings and design. The site also consists of Python code used in the Django web framework to create the Home, Quizzes, Quiz Results, and About pages. For quiz questions, a SQL data store was used. Python and Django were used to create quizzes based on the user selection of topic(s) and difficulty level. The site was deployed using Heroku.
 
 ## Testing
 
