@@ -20,8 +20,6 @@ The proposed website consists of three web pages:
  - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and  
  - About - a page providing information for students, teachers, and parents on the site purpose.   
 
-To properly run the .......... website, it requires the use of
-
 Ready for liftoff? T minus three, two, one: Blast Off!
 
 ## Planning and Design
