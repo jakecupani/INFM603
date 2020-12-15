@@ -17,7 +17,7 @@ The proposed website would provide elementary and middle school students with ed
 The proposed website consists of three web pages:
  - Home - a page welcoming students before they preceding throughout the site;  
  - Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding; 
- - Quiz Results; and  
+ - Quiz Results - a page providing students the percentage of the questions they answered correctly and explanations for questions they answered incorrectly; and  
  - About - a page providing information for students, teachers, and parents on the site purpose.   
 
 To properly run the ___________ website, it requires the use of
