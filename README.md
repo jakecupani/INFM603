@@ -17,10 +17,10 @@ The proposed website would provide elementary and middle school students with ed
 The proposed website consists of three web pages:
  - Home - a page welcoming students before they preceding throughout the site;  
  - Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding; 
- - Quiz Results - a page providing students the percentage of the questions they answered correctly and explanations for questions they answered incorrectly; and  
+ - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and  
  - About - a page providing information for students, teachers, and parents on the site purpose.   
 
-To properly run the ___________ website, it requires the use of
+To properly run the .......... website, it requires the use of
 
 Ready for liftoff? T minus three, two, one: Blast Off!
 
