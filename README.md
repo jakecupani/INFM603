@@ -102,7 +102,6 @@ The project team used images from the following sources:
  - [Freepik](https://www.freepik.com/free-vector/space-seamless-pattern_1537681.htm)
  
  The project team referred to and used information from the following technical sources:
- - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) for site stylings and design
- - [w3schools](https://www.w3schools.com/css/default.asp) for site stylings and design
+ - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) and [w3schools](https://www.w3schools.com/css/default.asp)  for site stylings and design
  - [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/) for web development 
  
