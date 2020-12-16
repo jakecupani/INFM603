@@ -55,7 +55,9 @@ The project team developed wireframes of the user interface for the three main p
 
 The team also developed wireframes for some of the major epics in the project’s backlog using Figma. 
 
-The project team drafted an Entity-Relationship Diagram (ER Diagram) to define the website’s conceptual data model for the database of quiz questions and answers. This ER Diagram was created on Figma and can be found here.
+![Figma for Backlog Wireframes](./nasaswyk/nasaswyk/static/assets/FigmaforBacklogWireframes.jpg)
+
+The project team drafted an Entity-Relationship Diagram (ER Diagram) to define the website’s conceptual data model for the database of quiz questions and answers. This ER Diagram was created using Figma.
 
 ## Implementation
 
