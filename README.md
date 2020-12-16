@@ -47,6 +47,8 @@ The project team used Trello for project planning.
 
 The project team wrote users stories for students, teachers, parents, and others to identify and develop website requirements, and tracked backlogs, user stories, and sprints using Trello.
 
+![Trello for User Stories](./nasaswyk/nasaswyk/static/assets/TrelloforUserStories.jpg)
+
 The project team developed wireframes of the user interface for the three main pages of the website using Figma. The team also developed wireframes for some of the major epics in the project’s backlog using Figma. 
 
 The project team drafted an Entity-Relationship Diagram (ER Diagram) to define the website’s conceptual data model for the database of quiz questions and answers. This ER Diagram was created on Figma and can be found here.
