@@ -1,5 +1,7 @@
 # INFM 603 Group Project
 
+![Test](/nasaswyk/nasaswyk/static/assets/Trello for Project Management.jpg)
+
 ## Background
 
 National Aeronautics and Space Administration (NASA) is the United States federal agency responsible for scientific and technological achievements in human spaceflight, aeronautics, space science, and space applications. NASA’s Science, Technology, Engineering, and Mathematics (STEM) Engagement Program strives to increase K-12 involvement in NASA projects, enhance higher education, support underrepresented communities, strengthen online education, and boost NASA's contribution to informal education.
