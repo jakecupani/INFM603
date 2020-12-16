@@ -1,7 +1,10 @@
 # INFM 603 Group Project
 
+<<<<<<< Updated upstream
 ![Test](https://www.nasa.gov/sites/default/files/thumbnails/image/astronaut_banner_artemis-i_nasa_0.png)
 
+=======
+>>>>>>> Stashed changes
 ## Background
 
 National Aeronautics and Space Administration (NASA) is the United States federal agency responsible for scientific and technological achievements in human spaceflight, aeronautics, space science, and space applications. NASA’s Science, Technology, Engineering, and Mathematics (STEM) Engagement Program strives to increase K-12 involvement in NASA projects, enhance higher education, support underrepresented communities, strengthen online education, and boost NASA's contribution to informal education.
@@ -29,6 +32,8 @@ Ready for liftoff? T minus three, two, one: Blast Off!
 The project team met on a weekly basis via Zoom to discuss the website. Project team members also met on an ad-hoc basis via Zoom or Google Meet to discuss specific tasks. The project team communicated outside meetings using GroupMe.
 
 The project team used Google Drive and Trello boards to manage documents, as well as the planning and design of the website. The project team’s major documents can be found here. The project team used Trello for project planning.
+
+![Trello for Project Management](/static/assets/Trello for Project Management.jpg)
 
 The project team wrote users stories for students, teachers, parents, and others to identify and develop website requirements, and tracked backlogs, user stories, and sprints using Trello.
 
