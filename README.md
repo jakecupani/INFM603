@@ -15,10 +15,21 @@ The proposed website would provide elementary and middle school students with ed
 ## Website
 
 The proposed website consists of three web pages:
- - Home - a page welcoming students before they preceding throughout the site;  
- - Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding; 
- - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and  
- - About - a page providing information for students, teachers, and parents on the site purpose.   
+ - Home - a page welcoming students before they preceding throughout the site; 
+
+ ![Home Page](./nasaswyk/nasaswyk/static/assets/HomePage.jpg)
+
+ - Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding;
+
+ ![Quizzes Page](./nasaswyk/nasaswyk/static/assets/QuizzesPage.jpg)
+
+ - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and
+
+ ![Quiz Results Page](./nasaswyk/nasaswyk/static/assets/QuizResultsPage.jpg)
+
+ - About - a page providing information for students, teachers, and parents on the site purpose.
+
+ ![About Page](./nasaswyk/nasaswyk/static/assets/AboutPage.jpg)    
 
 ## Planning and Design
 
