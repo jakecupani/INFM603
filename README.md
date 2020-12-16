@@ -69,7 +69,7 @@ The website consists of HTML code for site foundation and Bootstrap for site sty
 
 ## Testing
 
-The project team tested website functionality on the Chrome, Edge/Internet Explorer, Firefox, and Safari web browsers.
+The project team tested website functionality on the Chrome, Edge, Firefox, and Safari web browsers.
 
 The project team used the Google Chrome Lighthouse audit tool to assess various performance, accessibility, best practices, and search engine optimization (SEO) factors by giving a score for each factor being assessed. This tool assessed mobile and desktop usability and responsiveness for the Home, Quizzes, Quiz Results, and About Pages. This tool was used to detect inefficiencies and mistakes as well as areas to improve our HTML code and other assets. The project team also used the Google Chrome Developer Tools console to debug errors in the HTML code.
 
