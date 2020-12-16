@@ -71,9 +71,17 @@ The website consists of HTML code for site foundation and Bootstrap for site sty
 
 The project team tested website functionality on the Chrome, Edge/Internet Explorer, Firefox, and Safari web browsers.
 
-The project team used the Google Chrome Lighthouse audit tool to assess various performance, accessibility, best practices, and search engine optimization (SEO) factors by giving a score for each factor being assessed. This tool was used to detect inefficiencies and mistakes to improve the HTML code and other assets. This tool was also used to assess mobile and desktop usability and responsiveness. A graphic of the final Google Chrome Lighthouse scoring can be found below.   
+The project team used the Google Chrome Lighthouse audit tool to assess various performance, accessibility, best practices, and search engine optimization (SEO) factors by giving a score for each factor being assessed. This tool assessed mobile and desktop usability and responsiveness for the Home, Quizzes, Quiz Results, and About Pages. This tool was used to detect inefficiencies and mistakes as well as areas to improve our HTML code and other assets. The project team also used the Google Chrome Developer Tools console to debug errors in the HTML code.
 
-The project team also used the Google Chrome Developer Tools console to debug errors in the HTML code.
+Google Chrome Lighthouse Testing Results
+
+Home Page - Mobile - Local Environment
+
+![Google Chrome Lighthouse Home Page Mobile Local Environment](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileLocalEnvironment.jpg)
+
+Home Page - Mobile - Heroku
+
+![Google Chrome Lighthouse Home Page Mobile Heroku](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileHeroku.jpg)
 
 The project team also used manual tests to check the functionalities of the website and its underlying database based on the actions of website users. Specifically, the project team performed tests to:
  
