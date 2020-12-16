@@ -1,6 +1,6 @@
 # INFM 603 Group Project
 
-![SpaceQuiz Logo!](/assset/space-pattern2.jpg)
+![SpaceQuiz Logo](https://worldvectorlogo.com/logo/galaxy-4)
 
 ## Background
 
