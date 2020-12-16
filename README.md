@@ -73,13 +73,13 @@ The project team tested website functionality on the Chrome, Edge/Internet Explo
 
 The project team used the Google Chrome Lighthouse audit tool to assess various performance, accessibility, best practices, and search engine optimization (SEO) factors by giving a score for each factor being assessed. This tool assessed mobile and desktop usability and responsiveness for the Home, Quizzes, Quiz Results, and About Pages. This tool was used to detect inefficiencies and mistakes as well as areas to improve our HTML code and other assets. The project team also used the Google Chrome Developer Tools console to debug errors in the HTML code.
 
-Google Chrome Lighthouse Testing Results
+### Google Chrome Lighthouse Testing Results
 
-Home Page - Mobile - Local Environment
+#### Home Page - Mobile - Local Environment
 
 ![Google Chrome Lighthouse Home Page Mobile Local Environment](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileLocalEnvironment.jpg)
 
-Home Page - Mobile - Heroku
+#### Home Page - Mobile - Heroku
 
 ![Google Chrome Lighthouse Home Page Mobile Heroku](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileHeroku.jpg)
 
