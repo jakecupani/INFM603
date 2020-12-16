@@ -1,6 +1,6 @@
 # INFM 603 Group Project
 
-![SpaceQuiz Logo](https://worldvectorlogo.com/logo/galaxy-4)
+![Test](https://www.nasa.gov/sites/default/files/thumbnails/image/hls-eva-apr2020.jpg)
 
 ## Background
 
