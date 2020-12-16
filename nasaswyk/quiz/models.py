@@ -14,6 +14,8 @@ TOPICS = [
         ("Spacecraft","Spacecraft"),
         ("Spacesuits","Spacesuits"),
         ("NASA Names","NASA Names"),
+        ("Aeronautics","Aeronautics"),
+        ("Solar System and Beyond","Solar System and Beyond")
     ]
 
 
