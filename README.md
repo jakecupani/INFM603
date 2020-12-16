@@ -35,7 +35,13 @@ The proposed website consists of three web pages:
 
 The project team met on a weekly basis via Zoom to discuss the website. Project team members also met on an ad-hoc basis via Zoom or Google Meet to discuss specific tasks. The project team communicated outside meetings using GroupMe.
 
-The project team used Google Drive and Trello boards to manage documents, as well as the planning and design of the website. The project team’s major documents can be found here. The project team used Trello for project planning.
+The project team used Google Drive and Trello boards to manage documents, as well as the planning and design of the website. 
+
+The project team stored its documentation on Google Drive. 
+
+![Google Drive](./nasaswyk/nasaswyk/static/assets/GoogleDrive.jpg)
+
+The project team used Trello for project planning.
 
 ![Trello for Project Management](./nasaswyk/nasaswyk/static/assets/TrelloforProjectManagement.jpg)
 
