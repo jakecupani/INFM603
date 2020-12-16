@@ -20,8 +20,6 @@ The proposed website consists of three web pages:
  - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and  
  - About - a page providing information for students, teachers, and parents on the site purpose.   
 
-Ready for liftoff? T minus three, two, one: Blast Off!
-
 ## Planning and Design
 
 The project team met on a weekly basis via Zoom to discuss the website. Project team members also met on an ad-hoc basis via Zoom or Google Meet to discuss specific tasks. The project team communicated outside meetings using GroupMe.
