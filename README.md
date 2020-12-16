@@ -88,6 +88,10 @@ The project team also used manual tests to check the functionalities of the webs
  - Difficulty buttons loaded all appropriate quizzes and no others.
  - Inappropriate use (“mashing”) of buttons did not break site functionality.
 
+ The group tracked testing and bugs using Trello.
+
+![Trello for Testing and BugTracking](./nasaswyk/nasaswyk/static/assets/TrelloforTestingandBugTracking.jpg)
+
 ## Backlog and Backlogged Items
 
 The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive as well as in cards on one of the Trello boards. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
