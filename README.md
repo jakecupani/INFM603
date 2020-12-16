@@ -1,7 +1,6 @@
 # INFM 603 Group Project
 
-![Test](./nasaswyk/nasaswyk/static/assets/logo.png)
-<img src='./nasaswyk/nasaswyk/static/assets/Trello for Project Management.png'>
+![Test](./nasaswyk/nasaswyk/static/assets/TrelloforProjectManagement.jpg)
 
 ## Background
 
