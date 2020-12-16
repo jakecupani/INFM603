@@ -104,7 +104,9 @@ The project team backlogged items for the website. These items were identified a
  - Site functionality to capture and send quiz scores via email to teachers and/or parents for their review; and
  - A credential and portal system for students, teachers, parents, and others that allows them to view quiz scores and other class information.
 
-An example of a backlogged item documented on Trello can be found here.
+#### Trello Backlogged Item Example
+
+![Trello Backlogged Item Example](./nasaswyk/nasaswyk/static/assets/TrelloforBacklog.jpg)
 
 ## Challenges and Lessons Learned
 
