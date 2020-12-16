@@ -1,6 +1,6 @@
 # INFM 603 Group Project
 
-![SpaceQuiz Logo](/space-pattern2.jpg)
+![SpaceQuiz Logo](/assset/space-pattern2.jpg)
 
 ## Background
 
