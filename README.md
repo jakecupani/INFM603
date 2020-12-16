@@ -94,7 +94,7 @@ The project team also used manual tests to check the functionalities of the webs
 
 ## Backlog and Backlogged Items
 
-The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive as well as in cards on one of the Trello boards. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
+The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive, on one of the Trello boards, as well as on our Figma site. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
 
  - Additional information, hyperlinks, videos, and/or pages that students can read and watch to learn more about a specific topic;
  - Pages where students can receive instructions for individual learning activities, such as observing and identifying the lunar cycle;
