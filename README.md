@@ -83,11 +83,10 @@ The project team used the Google Chrome Lighthouse audit tool to assess various 
 
 ![Google Chrome Lighthouse Home Page Mobile Heroku](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileHeroku.jpg)
 
-The project team also used manual tests to check the functionalities of the website and its underlying database based on the actions of website users. Specifically, the project team performed tests to:
- 
- -
- -
- -
+The project team also used manual tests to check the functionalities of the website and its underlying database based on the actions of website users. For example, the project team performed tests to assess whether:
+ - Topic buttons loaded all appropriate quizzes and no others.
+ - Difficulty buttons loaded all appropriate quizzes and no others.
+ - Inappropriate use (“mashing”) of buttons did not break site functionality.
 
 ## Backlog and Backlogged Items
 
