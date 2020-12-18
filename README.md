@@ -75,13 +75,13 @@ The project team used the Google Chrome Lighthouse audit tool to assess various 
 
 ### Google Chrome Lighthouse Testing Results
 
-#### Home Page - Mobile - Local Environment
+#### Desktop Audit Testing Results Example
 
-![Google Chrome Lighthouse Home Page Mobile Local Environment](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileLocalEnvironment.jpg)
+![Google Chrome Lighthouse Desktop Audit Testing Results](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHerokuDesktop.jpg)
 
-#### Home Page - Mobile - Heroku
+#### Mobile Audit Testing Results Example
 
-![Google Chrome Lighthouse Home Page Mobile Heroku](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHomePageMobileHeroku.jpg)
+![Google Chrome Lighthouse Mobile Audit Testing Results](./nasaswyk/nasaswyk/static/assets/GoogleChromeLighthouseHerokuMobile.jpg)
 
 The project team also used manual tests to check the functionalities of the website and its underlying database based on the actions of website users. For example, the project team performed tests to assess whether:
  - Topic buttons loaded all appropriate quizzes and no others.
