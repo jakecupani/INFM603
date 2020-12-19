@@ -10,24 +10,24 @@ The group of five graduate students played the role of a hypothetical web develo
 
 The proposed website the graduate students created would hypothetically be used to further the goals of the NASA STEM Engagement Program by increasing K-12 involvement in NASA projects, strengthening online education, and boosting NASA’s contribution to informal education.
 
-The proposed website would provide elementary and middle school students with educational information on a variety of STEM topics related to NASA’s Moon to Mars exploration plans. After studying this information, students would be able to demonstrate and measure their understanding of these topics. Specifically, students could answer a set of quiz questions about NASA, including its mission to send the first woman and next man to the Moon by 2024 and preparation to send astronauts to Mars.
+The proposed website would provide elementary and middle school students with educational information on a variety of STEM topics related to NASA’s Moon to Mars exploration plans. After studying this information, students would be able to demonstrate and measure their understanding of these topics. Specifically, students could answer a set of quiz questions about NASA, including its Artemis mission to send the first woman and next man to the Moon by 2024 and preparation to send astronauts to Mars.
 
 ## Website
 
 The proposed website consists of three web pages:
- - Home - a page welcoming students before they preceding throughout the site; 
+ - Home - A page welcoming students before they preceding throughout the site; 
 
  ![Home Page](./nasaswyk/nasaswyk/static/assets/HomePage.jpg)
 
- - Quizzes - a page where student select NASA-related STEM topics they wish demonstrate and measure their understanding;
+ - Quizzes - A page where student select NASA-related STEM topics to demonstrate and measure their understanding;
 
  ![Quizzes Page](./nasaswyk/nasaswyk/static/assets/QuizzesPage.jpg)
 
- - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides them explanations for quiz questions they did not answer correctly; and
+ - Quiz Results - Provides students a percentage score based on the number of quiz questions they answered correctly and provides explanations for quiz questions they did not answer correctly; and
 
  ![Quiz Results Page](./nasaswyk/nasaswyk/static/assets/QuizResultsPage.jpg)
 
- - About - a page providing information for students, teachers, and parents on the site purpose.
+ - About - A page providing information for students, teachers, and parents on the site's purpose.
 
  ![About Page](./nasaswyk/nasaswyk/static/assets/AboutPage.jpg)    
 
@@ -45,11 +45,11 @@ The project team used Trello for project planning.
 
 ![Trello for Project Management](./nasaswyk/nasaswyk/static/assets/TrelloforProjectManagement.jpg)
 
-The project team wrote users stories for students, teachers, parents, and others to identify and develop website requirements, and tracked backlogs, user stories, and sprints using Trello.
+The project team wrote users stories for students, teachers, parents, and others to identify and develop website requirements and tracked the backlog, user stories, and sprints using Trello.
 
 ![Trello for User Stories](./nasaswyk/nasaswyk/static/assets/TrelloforUserStories.jpg)
 
-The project team developed wireframes of the user interface for the three main pages of the website using Figma. 
+The project team developed wireframes of the user interface for the main pages of the website using Figma. 
 
 ![Figma for Wireframes](./nasaswyk/nasaswyk/static/assets/FigmaforWireframes.jpg)
 
@@ -57,15 +57,15 @@ The team also developed wireframes for some of the major epics in the project’
 
 ![Figma for Backlog Wireframes](./nasaswyk/nasaswyk/static/assets/FigmaforBacklogWireframes.jpg)
 
-The project team drafted an Entity-Relationship Diagram (ER Diagram) to define the website’s conceptual data model for the database of quiz questions and answers. This ER Diagram was created using Figma.
+The project team drafted an Entity-Relationship Diagram (ERD) to define the website’s conceptual data model for the database of quiz questions and answers. This ERD was created using Figma.
 
 ![Figma for Entity Relationship Diagram](./nasaswyk/nasaswyk/static/assets/FigmaforEntityRelationshipDiagram.jpg)
 
 ## Implementation
 
-The website was created to be web browsers agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
+The website was created to be web browser agnostic. The website was also created for use on both desktop/laptop computers and hand-held devices and considers the resolution and interactivity of its display. Lastly, the website was created for use on all operating systems.
 
-The website consists of HTML code for site foundation and Bootstrap for site stylings and design. The site also consists of Python code used in the Django web framework to create the Home, Quizzes, Quiz Results, and About pages. For quiz questions, a SQL data store was used. Python and Django were used to create quizzes based on the user selection of topic(s) and difficulty level. The site was deployed using Heroku.
+The website consists of HTML code for site foundation and Bootstrap for site stylings and design. The site also consists of Python code used in the Django web framework to create the Home, Quizzes, Quiz Results, and About pages. For quiz questions, an SQL data store was used. Python and Django were used to create quizzes based on the user selection of topic(s) and difficulty level. The site was deployed using Heroku.
 
 ## Testing
 
@@ -94,7 +94,7 @@ The project team also used manual tests to check the functionalities of the webs
 
 ## Backlog and Backlogged Items
 
-The project team backlogged items for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive, on one of the Trello boards, as well as on our Figma site. These backlogged items can be added to future releases of the site to improve its content and functionality. Backlogged items included:
+The project team created a backlog of future functionality for the website. These items were identified and discussed during different stages of the project. These items were documented in meeting minutes on the Google Drive, on one of the Trello boards, as well as on our Figma site. These backlogged items can be added to future releases of the site to improve its content and functionality. Items in the backlog included:
 
  - Additional information, hyperlinks, videos, and/or pages that students can read and watch to learn more about a specific topic;
  - Pages where students can receive instructions for individual learning activities, such as observing and identifying the lunar cycle;
