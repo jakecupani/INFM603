@@ -143,3 +143,6 @@ The project team used images from the following sources:
  - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) and [w3schools](https://www.w3schools.com/css/default.asp)  for site stylings and design
  - [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/) for web development 
  
+## Documents Appendix
+
+Go to INFM603/documents/Documents Appendix for Group Project Report/ for documents related to project management, specifications, software testing, and the final project presentation. 
