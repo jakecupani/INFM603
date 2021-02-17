@@ -1,4 +1,4 @@
-# INFM 603 Group Project
+# SpaceQuiz - INFM 603 Group Project
 
 ## Background
 
